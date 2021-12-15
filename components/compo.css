@@ -1,0 +1,40 @@
+.nav-bar{
+    background-image: url("../images/salle.jpeg"); 
+    height: 79vh;
+    background-size: cover;
+
+}
+.move{
+    justify-content: space-between;
+    font-size: 25px;
+    
+}
+
+nav.nav-option{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+header.move{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    margin: 15px;
+}
+
+a.style{
+    text-decoration: none;
+    color: #722323;
+}
+h1.style{
+    color: #722323;
+}
+div.title{
+    color:white;
+    font-size: 45px;
+    text-align: left;
+    position: absolute;
+    bottom: 200px;
+}

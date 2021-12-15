@@ -1,0 +1,88 @@
+
+@import url(components/compo.css);
+@import url(components/film.css);
+@import url(components/footer.css);
+*{
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 550px){
+    .style{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .film{
+        min-width: 450px;
+        height: 450px;
+        flex-wrap: wrap;
+        position: relative;
+        background-size: cover;
+    }
+    .part{
+        margin: 0px;
+        min-height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    
+    .nav-bar{
+        height: 470px
+    }
+}
+@media screen and (max-width: 1300px){
+    .film{
+        min-width: 350px;
+        height: 350px;
+        flex-wrap: wrap;
+        position: relative;
+        background-size: cover;
+    }
+    .part{
+        margin: 10px;
+        min-height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    .resume{
+        font-size: 15px;
+    }
+      .text{
+       max-width: 250px;
+        max-height: 250px; 
+    }
+}
+@media screen and (max-width: 850px){
+    .film{
+        min-width: 350px;
+        height: 350px;
+        flex-wrap: wrap;
+        position: relative;
+        background-size: cover;
+    }
+    .part{
+        margin: 10px;
+        min-height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    .resume{
+        font-size: 10px;
+        
+    }
+    .text{
+       max-width: 200px;
+        max-height: 2000px; 
+    }
+}
+body{
+    background-color: red;
+}
+
+
+
+
